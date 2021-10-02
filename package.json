@@ -1,0 +1,27 @@
+{
+  "name": "kkb-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "kkbd": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^10.0.0",
+    "glob": "^7.2.0",
+    "inquirer": "^8.1.5",
+    "jimp": "^0.16.1",
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.2.1",
+    "puppeteer-extra-plugin-stealth": "^2.8.1",
+    "qrcode-reader": "^1.0.4",
+    "qrcode-terminal": "^0.12.0",
+    "yargs": "^17.2.1"
+  }
+}
