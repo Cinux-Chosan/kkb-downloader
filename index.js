@@ -167,7 +167,7 @@ console.log(`内容存放路径：${rootdir}`);
 
     await page.waitForNavigation({ timeout: 0 });
 
-    console.log('登录成功');
+    console.log('登录成功\n');
 
     keepAlive();
   }
